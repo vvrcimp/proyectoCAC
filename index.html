@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador | Mattivi Cesar</title>
+    <link rel="shortcut icon" href="./assets/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="./assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0" loading="lazy"></a>
+        <h2>Conf Bs As</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="#">La conferencia</a>
+            <a href="#">Los oradores</a>
+            <a href="#">El lugar y la fecha</a>
+            <a href="#">Conviertete en orador</a>
+            <a class="verde" href="#">Comprar tickets</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+    <section id="banner">
+        <div class="contenido-banner">
+            <h3><span>Conf Bs As</span><br>Ba As llega por primera ves a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</h3>
+            <a href="#" class="boton-quiero">Quiero ser orador</a>
+            <a href="#" class="boton-comprar">Comprar tickets</a>
+        </div>
+    </section>
+    <section class="personas">
+        <P>CONOCE A LOS</P>
+        <h3>ORADORES</h3>
+        <div class="contenedor-card">
+             <div class="steve"> 
+                <img class="card" src="./assets/img/Steve_Jobs.jpg" alt="Steve_Jobs">
+                <h5 class="java">JavaScript</h5> <h5 class="react">React</h5>
+                <h2 class="nombres">Steve Jobs</h2><br>
+                <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis fugiat sed tempora ex perspiciatis deserunt mollitia obcaecati inventore veniam ut facere temporibus, nulla ad adipisci molestiae quidem. Adipisci, dolore!
+                </h6>
+            </div>
+            <div class="bill">
+                <img class="card" src="./assets/img/bill.jpg" alt="Bill_Gates">
+                <h5 class="java">JavaScript</h5> <h5 class="react">React</h5>
+                <h2 class="nombres">Bill Gates</h2><br>
+                <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis fugiat sed tempora ex perspiciatis deserunt mollitia obcaecati inventore veniam ut facere temporibus, nulla ad adipisci molestiae quidem. Adipisci, dolore!
+                </h6>
+            </div>
+            <div class="ada">
+                <img class="card" src="./assets/img/ada.jpeg" alt="Ada_Lovelace">
+                <h5 class="negocios">Negocios</h5> <h5 class="startups">Startups</h5>
+                <h1 class="nombres">Ada Lovelace</h1><br>
+                <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis fugiat sed tempora ex perspiciatis deserunt mollitia obcaecati inventore veniam ut facere temporibus, nulla ad adipisci molestiae quidem. Adipisci, dolore!
+                </h6>
+            </div>
+
+        </div>
+    </section>
+    <section class="lugyfecha">
+        <div class="izq"></div>
+        <div class="der">
+            <h2>Bs As - Octubre</h2><br>
+            <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina,
+                en los Estados Unidos. Honolulu es la mas sureña de entre las principales 
+                ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area 
+                urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de 
+                Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad
+                (aproximadamente 600km&#178 de superficie)
+            </p><br>
+            <a class="conoce" href="#">Conocé más</a>
+        </div>
+    </section>
+    <section class="formulario">
+        <br>
+        <p>CONVIERTETE EN UN</p>
+        <H1>ORADOR</H1>
+        <P>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</P>
+        <form action="#" method="post" name="formulario">
+            <input placeholder="Nombre" required autocomplete="on"  type="text" id="nombres" name="nombre_usuario" />
+            <input placeholder="Apellido" required autocomplete="on" type="text" id="apellidos" name="apellido_usuario" /><br>
+            <textarea required placeholder="Sobre qué quieres hablar?" maxlength="200" cols="45" rows="5"  name="mensaje_usuario"></textarea>
+        <p>Recuerda incluir un titulo para tu charla</p>
+        <button>Enviar</button>
+        </form>
+
+        </div>
+    </section>
+    
+</body>
+</html>
