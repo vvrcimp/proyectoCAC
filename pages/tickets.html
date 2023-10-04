@@ -6,28 +6,29 @@
     <title>Comprar tickets</title>
      <!--link de favicon-->
      <link rel="shortcut icon" href="../assets/icon/favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 <body>
     <header>
-        <!-- las imagenes son etiquetas abiertas y en linea-->
-        <a href="../index.html">  
-            <img src="../assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0">      
-        </a>
-        <h2>Conf. Bs.As.</h2>
-        <!--etiqueta semantica encargada de la navegacion-->
-        <nav>
-            <!-- listas desordenadas -->
-            <ul>
-                <li><a href="../index.html#conferencia">La conferencia</a></li>
-                <li><a href="../index.html#oradores">Los oradores</a></li>
-                <li><a href="../index.html#lugarFecha">El lugar y la fecha</a></li>
-                <li><a href="../index.html#formularioOrador">Conviértete en orador</a></li>
-                <li><a href="#">Comprar tickets</a></li>
-            </ul>
+        <a href="index.html"><img class="logo" src="../assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0" loading="lazy"></a>
+        <h2>Conf Bs As</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="../index.html">La conferencia</a>
+            <a href="../index.html">Los oradores</a>
+            <a href="../index.html">El lugar y la fecha</a>
+            <a href="../index.html">Conviertete en orador</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
         </nav>
     </header>
     <main>
-       <section>
+       <section class="ticket">
         <h1>Comprar tickets</h1>
         <img src="https://picsum.photos/300/300?grayscale&random=2" alt="random">
        <!--  <img src="../assets/img/Steve_Jobs.jpg" alt="Steve Jobs">-->
