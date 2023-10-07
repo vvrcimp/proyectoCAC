@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./assets/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    
 
 </head>
 <body>
@@ -19,10 +20,10 @@
         </label>
         <nav class="menu">
             <a href="#">La conferencia</a>
-            <a href="#">Los oradores</a>
-            <a href="#">El lugar y la fecha</a>
-            <a href="#">Conviertete en orador</a>
-            <a class="verde" href="#">Comprar tickets</a>
+            <a href="#personas">Los oradores</a>
+            <a href="#lugyfech">El lugar y la fecha</a>
+            <a href="#formulario">Conviertete en orador</a>
+            <a class="verde" href="./pages/tickets.html">Comprar tickets</a>
             <label for="check" class="esconder-menu">
                 &#215
             </label>
@@ -35,7 +36,7 @@
             <a href="#" class="boton-comprar">Comprar tickets</a>
         </div>
     </section>
-    <section class="personas">
+    <section class="personas" id="personas">
         <P>CONOCE A LOS</P>
         <h3>ORADORES</h3>
         <div class="contenedor-card">
@@ -63,7 +64,7 @@
 
         </div>
     </section>
-    <section class="lugyfecha">
+    <section class="lugyfecha" id="lugyfech">
         <div class="izq"></div>
         <div class="der">
             <h2>Bs As - Octubre</h2><br>
@@ -77,7 +78,7 @@
             <a class="conoce" href="#">Conocé más</a>
         </div>
     </section>
-    <section class="formulario">
+    <section class="formulario" id="formulario">
         <br>
         <p>CONVIERTETE EN UN</p>
         <H1>ORADOR</H1>
@@ -87,11 +88,24 @@
             <input placeholder="Apellido" required autocomplete="on" type="text" id="apellidos" name="apellido_usuario" /><br>
             <textarea required placeholder="Sobre qué quieres hablar?" maxlength="200" cols="45" rows="5"  name="mensaje_usuario"></textarea>
         <p>Recuerda incluir un titulo para tu charla</p>
-        <button>Enviar</button>
+        <input class="enviar" type="submit" value="Enviar">
         </form>
 
         </div>
     </section>
-    
+    <footer>
+        <div class="pie">
+        <nav class="nav-pie">
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Contactenos</a>
+            <a href="">Prensa</a>
+            <a href="">Conferencia</a>
+            <a href="">Terminos y condiciones</a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+        </nav>
+    </div>
+    </footer>
+    <script></script>
 </body>
 </html>

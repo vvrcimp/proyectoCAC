@@ -45,15 +45,21 @@
         text-align: center;
         margin-left: 0;
     }
+    .nav-pie a{
+        display: block;
+        padding: 1px;
+        margin: 1px;
+    }
         
 }
 @media(max-width: 800px){
     .contenedor-card{
         flex-direction: column;
+        
     }
     .bill, .steve, .ada{
         border: 1px solid rgb(147, 147, 151);
-       width: 40%;
+       width:       60%;
             
     }
     .card{

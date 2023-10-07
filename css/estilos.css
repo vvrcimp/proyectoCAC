@@ -29,7 +29,7 @@ header {
     
 }
 header h2{
-    position: absolute;
+    position:absolute;
     left: 160px;
     }
 .logo{
@@ -40,6 +40,7 @@ header h2{
     text-decoration: none;
     padding: 0 10px;
     transition: 0.4S;
+    
     
     
 }
@@ -62,6 +63,8 @@ header h2{
 .mostrar-menu:hover,
 .esconder-menu:hover{
     color: white;
+    font-size: 1.2rem;
+    transition: 1s;
 }
 #check{
     display:none ;
@@ -77,6 +80,7 @@ header h2{
     height: 27.4vh;
     background-size: cover;
     background-position: center;
+    
 }
 #banner::before{
     content:  '';
@@ -258,9 +262,9 @@ header h2{
 }
 .formulario form p{
     text-align: left;
-    margin-left: 18em;
+    margin-left: 25em;
 }
-.formulario form button{
+.formulario form .enviar{
     width: 52%;
     padding: 7px;
     margin: 0.5rem;
@@ -269,3 +273,33 @@ header h2{
     border-radius: 5px;
     border: 0;
 }
+.formulario form .enviar:hover{
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+
+/*FOOTER*/
+.pie{
+    background: linear-gradient(rgb(29, 55, 68), rgb(32, 83, 114));
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+}
+.nav-pie a{
+    color:white;
+    text-decoration: none;
+    margin: 30px;   
+}
+
+.nav-pie a:hover{
+    font-size: 1.2rem;
+    transition: 1s;
+    color: rgb(247, 120, 2);}
+
+    /*PAGINA DE COMPRA DE TICKET*/
+    
+    .ticket{
+        text-align: center;
+    }
