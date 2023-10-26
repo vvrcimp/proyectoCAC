@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img class="logo" src="../assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0" loading="lazy"></a>
+        <a href="../index.html"><img class="logo" src="../assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0" loading="lazy"></a>
         <h2>Conf Bs As</h2>
         <input type="checkbox" id="check">
         <label for="check" class="mostrar-menu">
@@ -19,25 +19,73 @@
         </label>
         <nav class="menu">
             <a href="../index.html">La conferencia</a>
-            <a href="../index.html">Los oradores</a>
-            <a href="../index.html">El lugar y la fecha</a>
-            <a href="../index.html">Conviertete en orador</a>
+            <a href="../#personas">Los oradores</a>
+            <a href="../#lugyfech">El lugar y la fecha</a>
+            <a href="../#formulario">Conviertete en orador</a>
+            <a class="verde" href="#">Comprar tickets</a>
             <label for="check" class="esconder-menu">
                 &#215
             </label>
         </nav>
     </header>
     <main>
-       <section class="ticket">
-        <h1>Comprar tickets</h1>
-        <img src="https://picsum.photos/300/300?grayscale&random=2" alt="random">
-       <!--  <img src="../assets/img/Steve_Jobs.jpg" alt="Steve Jobs">-->
-     
+       <div class="tarjetaPC">
+        <a href="#"><div class="tarj1">
+            <h2>Estudiante</h2><br>
+            <p>Tienen un descuento</p><br>
+            <h3>80%</h3><br>
+            <p>*presentar documentacion</p>
+        </div></a>
+        <a href="#"><div class="tarj2">
+            <h2>Trainee</h2><br>
+            <p>Tienen un descuento</p><br>
+            <h3>50%</h3><br>
+            <p>*presentar documentacion</p>
+        </div></a>
+        <a href="#"><div class="tarj3">
+            <h2>Junior</h2><br>
+            <p>Tienen un descuento</p><br>
+            <h3>15%</h3><br>
+            <p>*presentar documentacion</p>
+        </div></a>
+       </div>
+       <div class="referenciaValor">
+       <h6>VENTA</h6>
+       <h1>VALOR DE TICKET $200</h1>
+        </div>
+       <section class="formulario2">
+        <form action="#" method="post" name="formulario">
+            <input placeholder="Nombre" required autocomplete="on"  type="text" id="nombres" name="nombre_usuario" />
+            <input placeholder="Apellido" required autocomplete="on" type="text" id="apellidos" name="apellido_usuario" /><br>
+            <input class="correo" placeholder="Correo" required autocomplete="on" type="email" id="email" name="email"/><br>
+            <div class="label"><label for="Cantidad" required>Cantidad</label></div>
+            <div class="label"><label for="categorias">Categoria</label></div><br>
+            <input placeholder="cantidad" type="number" name="cantidad">
+            <select class="select" name="categorias" id="cat">
+                <option value="estudiante">Estudiante</option>
+                <option value="trainee">Trainee</option>
+                <option value="junior">Junior</option>
+            </select>
+            <div class="total">Total a pagar:$</div>
+            
+        <input class="button" type="reset" name="borrar" value="Borrar">
+        <input class="button" type="submit" value="Resumen">
+        </form>
+
        </section>
     </main>
-    <footer>
-
-    </footer>
-    
+        <footer>
+            <div class="pie">
+            <nav class="nav-pie">
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Contactenos</a>
+                <a href="">Prensa</a>
+                <a href="">Conferencia</a>
+                <a href="">Terminos y condiciones</a>
+                <a href="">Privacidad</a>
+                <a href="">Estudiantes</a>
+            </nav>
+        </div>
+        </footer>    
 </body>
 </html>

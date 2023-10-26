@@ -303,3 +303,101 @@ header h2{
     .ticket{
         text-align: center;
     }
+
+
+    /*pagina de compra*/
+    .tarjetaPC{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+   }
+   .tarjetaPC a{
+    text-decoration: none;
+    color: black; 
+   }
+   .tarjetaPC a:hover{
+    transform: scale(0.9);
+    transition: 2s;
+   }
+
+   .tarj1{
+    border: 1px solid blue;
+    width: 31vh;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 1rem;
+    
+    }
+   .tarj2{
+    border: 1px solid rgb(6, 232, 240);
+    width: 31vh;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 1rem;
+    }
+   .tarj3{
+    border: 1px solid rgb(228, 71, 10);
+    width: 31vh;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 1rem;
+   }
+   .referenciaValor{
+    font-size: 1em;
+    text-align: center;
+    
+   }
+
+   /*Formulario pagina de compra*/
+   .formulario2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.formulario2 form input{
+    width: 21rem;
+    margin: 0.5rem;
+    padding: 3px;
+}
+.formulario2 form .select{
+    width: 22rem;
+    margin: 0.5rem;
+    padding: 3px;
+}
+.formulario2 form .correo{
+    width: 44rem ;
+}
+.formulario2 form .total{
+    background-color: rgb(203, 229, 254);
+    width: 43rem ;
+    text-align: left;
+    margin: 0.5rem;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(35, 87, 126);
+}
+.formulario2 form .button {
+background-color: rgb(150, 201, 62);
+border: none;
+padding: 10px;
+width: 22rem;
+color: white;
+font-weight: bold;
+border-radius: 5px;
+}
+.formulario2 form .button:hover {
+    transform: scale(0.9);
+    transition: 2s;
+   }
+.formulario2 form .label {
+    width: 21rem;
+    margin: 0.5rem;
+    padding: 3px;
+    display: inline-block;
+    text-align: left;
+}
+
