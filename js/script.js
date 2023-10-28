@@ -1,7 +1,8 @@
-let miNombre= Cesar;
-console.log(miNombre);
-let nombre;
+let total = document.querySelector("#total");
+let cantidadTicket = document.querySelector("#cant");
+let categoria = document.querySelector("#cat");
 
-if(miNombre==="Cesar"){
-    nombre=miNombre;
-}
+
+
+total.innerText= "Total a pagar: $ "+ 80;
+
