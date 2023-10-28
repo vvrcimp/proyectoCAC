@@ -60,13 +60,13 @@
             <input class="correo" placeholder="Correo" required autocomplete="on" type="email" id="email" name="email"/><br>
             <div class="label"><label for="Cantidad" required>Cantidad</label></div>
             <div class="label"><label for="categorias">Categoria</label></div><br>
-            <input required placeholder="cantidad" type="number" name="cantidad">
+            <input required min="1" placeholder="cantidad" type="number" name="cantidad" id="cant">
             <select class="select" name="categorias" id="cat">
                 <option value="estudiante">Estudiante</option>
                 <option value="trainee">Trainee</option>
                 <option value="junior">Junior</option>
             </select>
-            <div class="total">Total a pagar:$</div>
+            <div class="total" id="total">Total a pagar:$</div>
             
         <input class="button" type="reset" name="borrar" value="Borrar">
         <input class="button" type="submit" value="Resumen">
@@ -87,5 +87,6 @@
             </nav>
         </div>
         </footer>    
+        <script src="../js/script.js"></script>
 </body>
 </html>
