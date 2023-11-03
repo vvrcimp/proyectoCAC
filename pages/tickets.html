@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprar tickets</title>
      <!--link de favicon-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <link rel="shortcut icon" href="../assets/icon/favicon.ico" type="image/x-icon">
      <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/responsive.css">
@@ -30,43 +31,48 @@
     </header>
     <main>
        <div class="tarjetaPC">
-        <a href="#"><div class="tarj1">
-            <h2>Estudiante</h2><br>
-            <p>Tienen un descuento</p><br>
-            <h3>80%</h3><br>
-            <p>*presentar documentacion</p>
-        </div></a>
-        <a href="#"><div class="tarj2">
-            <h2>Trainee</h2><br>
-            <p>Tienen un descuento</p><br>
-            <h3>50%</h3><br>
-            <p>*presentar documentacion</p>
-        </div></a>
-        <a href="#"><div class="tarj3">
-            <h2>Junior</h2><br>
-            <p>Tienen un descuento</p><br>
-            <h3>15%</h3><br>
-            <p>*presentar documentacion</p>
-        </div></a>
+        <a href="#cat">
+            <div class="tarj1">
+                <h2>Estudiante</h2><br>
+                <p>Tienen un descuento</p><br>
+                <h3>80%</h3><br>
+                <p>*presentar documentacion</p>
+            </div></a>
+        <a href="#cat">
+            <div class="tarj2">
+                <h2>Trainee</h2><br>
+                <p>Tienen un descuento</p><br>
+                <h3>50%</h3><br>
+                <p>*presentar documentacion</p>
+            </div></a>
+        <a href="#cat">
+            <div class="tarj3">
+                <h2>Junior</h2><br>
+                <p>Tienen un descuento</p><br>
+                <h3>15%</h3><br>
+                <p>*presentar documentacion</p>
+            </div></a>
        </div>
-       <div class="referenciaValor">
-       <h6>VENTA</h6>
-       <h1>VALOR DE TICKET $200</h1>
+        <div class="referenciaValor">
+            <h6>VENTA</h6>
+            <h1>VALOR DE TICKET $200</h1>
         </div>
-       <section class="formulario2">
+       <section class="formulario2"> 
         <form action="#" method="post" name="formulario">
-            <input placeholder="Nombre" required autocomplete="on"  type="text" id="nombres" name="nombre_usuario" />
+            <input class="valid" placeholder="Nombre" required autocomplete="on"  type="text" id="nombres" name="nombre_usuario" />
             <input placeholder="Apellido" required autocomplete="on" type="text" id="apellidos" name="apellido_usuario" /><br>
             <input class="correo" placeholder="Correo" required autocomplete="on" type="email" id="email" name="email"/><br>
             <div class="label"><label for="Cantidad" required>Cantidad</label></div>
             <div class="label"><label for="categorias">Categoria</label></div><br>
             <input required min="1" placeholder="cantidad" type="number" name="cantidad" id="cant">
             <select requiered class="select" name="categorias" id="cat">
-                <option value="estudiante">Estudiante</option>
-                <option value="trainee">Trainee</option>
-                <option value="junior">Junior</option>
+                <option value="" selected disabled hidden>Seleccione una opcion</option> 
+                <option id="no-descuento" value="sin descuento">Sin Descuento</option>
+                <option id="estudiante" value="estudiante">Estudiante</option>
+                <option id="trainee" value="trainee">Trainee</option>
+                <option id="junior" value="junior">Junior</option>
             </select>
-            <div class="total" id="total">Total a pagar:$</div>
+            <div class="total" id="total"></div>
             
         <input class="button" type="reset" name="borrar" value="Borrar">
         <input class="button" type="submit" value="Resumen">
