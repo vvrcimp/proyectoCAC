@@ -21,12 +21,8 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
-    
-    
-    
-    
-    
+    align-items: center; 
+    position: sticky;    
 }
 header h2{
     position:absolute;
@@ -323,81 +319,54 @@ header h2{
 
    .tarj1{
     border: 1px solid blue;
-    width: 31vh;
+    width: 15rem;
     text-align: center;
     margin: 10px 5px;
-    padding: 1rem;
+    padding: 0.2rem;
+    
     
     }
    .tarj2{
     border: 1px solid rgb(6, 232, 240);
-    width: 31vh;
+    width: 15rem;
     text-align: center;
     margin: 10px 5px;
-    padding: 1rem;
+    padding: 0.2rem;
     }
    .tarj3{
     border: 1px solid rgb(228, 71, 10);
-    width: 31vh;
+    width: 15rem;
     text-align: center;
     margin: 10px 5px;
-    padding: 1rem;
+    padding: 0.2rem;
    }
    .referenciaValor{
     font-size: 1em;
     text-align: center;
-    
    }
 
-   /*Formulario pagina de compra*/
-   .formulario2{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+/*formulario pagina comprar ticket*/
 
 
+.form2{
+    margin: 1rem 15rem 1rem 15rem;
 }
-.formulario2 form input{
-    width: 21rem;
-    margin: 0.5rem;
-    padding: 3px;
+.form2 button{
+    background-color: rgb(150, 201, 62);
+    color: white;
 }
-.formulario2 form .select{
-    width: 22rem;
-    margin: 0.5rem;
-    padding: 3px;
+.form2 input:hover{
+    box-shadow: 0 0 10px rgb(247, 120, 2);
+    border:2px rgba(255, 1, 1, 0.548) solid;
+    transition: all 0.5s ease-in-out; 
 }
-.formulario2 form .correo{
-    width: 44rem ;
+.form2 select:hover{
+    box-shadow: 0 0 10px rgb(247, 120, 2);
+    border:2px rgba(255, 1, 1, 0.548) solid;
+    transition: all 0.5s ease-in-out; 
 }
-.formulario2 form .total{
-    background-color: rgb(203, 229, 254);
-    width: 43rem ;
-    text-align: left;
-    margin: 0.5rem;
-    padding: 15px;
-    border-radius: 5px;
-    color: rgb(35, 87, 126);
-}
-.formulario2 form .button {
-background-color: rgb(150, 201, 62);
-border: none;
-padding: 10px;
-width: 22rem;
-color: white;
-font-weight: bold;
-border-radius: 5px;
-}
-.formulario2 form .button:hover {
-    transform: scale(0.9);
-    transition: 2s;
-   }
-.formulario2 form .label {
-    width: 21rem;
-    margin: 0.5rem;
-    padding: 3px;
-    display: inline-block;
-    text-align: left;
+
+.mostrarError{
+    display: block;
 }
 
