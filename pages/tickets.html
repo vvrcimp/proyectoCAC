@@ -33,27 +33,27 @@
   </div>
     <main>
        <div class="tarjetaPC">
-        <a href="#categoriaSelect">
+        
             <div class="tarj1">
-                <h2>Estudiante</h2><br>
+                <div class="estud">Estudiante</div>
                 <p>Tienen un descuento</p><br>
                 <h3>80%</h3><br>
                 <p>*presentar documentacion</p>
-            </div></a>
-        <a href="#categoriaSelect">
+            </div>
+        
             <div class="tarj2">
-                <h2>Trainee</h2><br>
+                <div class="trai">Trainee</div>
                 <p>Tienen un descuento</p><br>
                 <h3>50%</h3><br>
                 <p>*presentar documentacion</p>
-            </div></a>
-        <a href="#categoriaSelect">
+            </div>
+       
             <div class="tarj3">
-                <h2>Junior</h2><br>
+                <div class="jun">Junior</div>
                 <p>Tienen un descuento</p><br>
                 <h3>15%</h3><br>
                 <p>*presentar documentacion</p>
-            </div></a>
+            </div>
        </div>
         <div class="referenciaValor">
             <h6>VENTA</h6>
@@ -63,49 +63,49 @@
         <form action="" class="form2">
           <div class="row gx-2">
             <div class="col-md mb-3">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" required>
-              <div id="mensajeErrorNombre" class="invalid-feedback">
-                     Ingrese su Nombre!
+              <input type="text" class="form-control" placeholder="Ingrese su Nombre" aria-label="Nombre" id="nombre" required>
+              <div id="mensajeErrorNombre" class="invalid-feedback mostrarError">
+                     Ingrese su <strong>Nombre!</strong>
               </div>
             </div>
             <div class="col-md mb-3">
-              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" required>
-              <div id="mensajeErrorApellido" class="invalid-feedback">
-                Ingrese su Apellido! 
+              <input type="text" class="form-control" placeholder="Ingrese su Apellido" aria-label="Apellido" id="apellido" required>
+              <div id="mensajeErrorApellido" class="invalid-feedback mostrarError">
+                Ingrese su <strong>Apellido!</strong>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md mb-3">
-              <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" required>
-              <div id="mensajeErrorEmail" class="invalid-feedback">
-                Ingrese su Email! 
+              <input type="email" class="form-control" placeholder="Ingrese su Email" aria-label="Email" id="mail" required>
+              <div id="mensajeErrorEmail" class="invalid-feedback mostrarError">
+                Ingrese su <strong>Email!</strong>! 
               </div>
             </div>
             <div class="row gx-2">
               <div class="col-md mb-3">
                 <label for="cantidadTickets" class="form-label">Cantidad</label>
-                <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" required>
-                <div id="mensajeErrorCantidad" class="invalid-feedback">
-                  Ingrese la cantidad de tickets!
+                <input type="number" class="form-control" placeholder="Ingrese Cantidad de Tickets" aria-label="Cantidad" id="cantidadTickets" min="1" required>
+                <div id="mensajeErrorCantidad" class="invalid-feedback mostrarError">
+                  Ingrese <strong> Cantidad de tickets!</strong>
                 </div>
               </div>
               <div class="col-md mb-3">
                 <label for="categoriaSelect" class="form-label">Categoría</label>
                 <select class="form-select" aria-label="Categoria" id="categoriaSelect">
-                  <option value="" selected> Seleccione opcion</option>
+                  <option value="" selected> <strong>...Seleccione...</strong></option>
                   <option value="0">Sin Categoria</option>
                   <option value="1">Estudiante</option>
                   <option value="2">Trainee</option>
                   <option value="3">Junior</option>
                 </select>
-                <div id="mensajeErrorCategoria" class="invalid-feedback">
-                  Ingrese su Categoria! 
+                <div id="mensajeErrorCategoria" class="invalid-feedback mostrarError">
+                  Ingrese su <strong>Categoria!</strong> 
                 </div>
               </div>
             </div>
             <div class="alert alert-primary mt-2 mb-4" role="alert">
-                    Total a pagar: $ <span id="totalPago" class="align-middle"></span>
+                    <strong>Total a pagar: $</strong> <span id="totalPago" class="align-middle"></span>
             </div>
             <div class="row gx-2">
               <div class="col-md mb-3">

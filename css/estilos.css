@@ -312,13 +312,13 @@ header h2{
     text-decoration: none;
     color: black; 
    }
-   .tarjetaPC a:hover{
+   /*.tarjetaPC a:hover{
     transform: scale(0.9);
     transition: 2s;
-   }
+   }*/
 
    .tarj1{
-    border: 1px solid blue;
+    border: 2px solid rgb(68, 111, 164);
     width: 15rem;
     text-align: center;
     margin: 10px 5px;
@@ -327,14 +327,14 @@ header h2{
     
     }
    .tarj2{
-    border: 1px solid rgb(6, 232, 240);
+    border: 2px solid rgb(6, 232, 240);
     width: 15rem;
     text-align: center;
     margin: 10px 5px;
     padding: 0.2rem;
     }
    .tarj3{
-    border: 1px solid rgb(228, 71, 10);
+    border: 2px solid rgb(210, 190, 121);
     width: 15rem;
     text-align: center;
     margin: 10px 5px;
@@ -343,6 +343,30 @@ header h2{
    .referenciaValor{
     font-size: 1em;
     text-align: center;
+   }
+   .estud{
+    background-color: rgb(68, 111, 164);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.2rem;
+   }
+   .trai{
+    background-color: rgb(6, 232, 240);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.2rem;
+   }
+   .jun{
+    background-color: rgb(210, 190, 121);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.2rem;
    }
 
 /*formulario pagina comprar ticket*/
@@ -366,7 +390,14 @@ header h2{
     transition: all 0.5s ease-in-out; 
 }
 
-.mostrarError{
+/*.mostrarError{
     display: block;
-}
+}*/
 
+.btn-form:hover{
+    transform: scale(0.8);
+    border-radius: 20px;
+    border: 5px solid rgb(48, 26, 243);
+    font-weight: bold;
+    transition: 2s;
+}
